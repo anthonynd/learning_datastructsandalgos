@@ -1,6 +1,8 @@
+#ifndef VECTOR_H
+#define VECTOR_H
+
 #include <iostream>
 
-// Currently only supports ints
 class Vector {
 
     private:
@@ -234,3 +236,5 @@ void Vector::shiftUp( int index )
         array[i] = array[i+1];
     }
 }
+
+#endif
